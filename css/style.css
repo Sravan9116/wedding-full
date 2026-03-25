@@ -1456,22 +1456,21 @@ img {
 ════════════════════════════════════════════════════════════ */
 .audio-btn {
   position: fixed;
-  top: 18px;
-  left: 18px;
-  z-index: 100;
-  background: rgba(10, 2, 0, 0.65);
-  border: 1px solid rgba(212, 160, 23, 0.4);
-  color: var(--gold2);
+  top: 20px;
+  left: 20px;
+  z-index: 999;
+  background: rgba(10, 2, 0, 0.7);
+  border: 1px solid rgba(212, 160, 23, 0.5);
+  color: gold;
   font-size: 1.2rem;
-  width: 42px;
-  height: 42px;
+  width: 44px;
+  height: 44px;
   border-radius: 50%;
-  cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: center;
-  backdrop-filter: blur(8px);
-  transition: all 0.3s;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 0 10px rgba(212, 160, 23, 0.4);
 }
 
 .audio-btn:hover {
@@ -1637,8 +1636,8 @@ img {
   }
 
   .audio-btn {
-    top: 10px;
-    left: 10px;
+    top: 40px;
+    left: 100px;
     width: 38px;
     height: 38px;
     font-size: 1rem;
@@ -1689,10 +1688,58 @@ img {
     padding: 20px 14px;
   }
 
-  .torana-top,
-  .progress-bar,
   .audio-btn {
+    top: 15px;
+    left: 5px;
+    width: 40px;
+    height: 40px;
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 320px) {
+
+  .grand-title .bride-glow,
+  .grand-title .groom-glow,
+  .hero-title .bride-glow,
+  .hero-title .groom-glow,
+  .varmala-title .bride-glow,
+  .varmala-title .groom-glow {
+    font-size: clamp(1.5rem, 12vw, 3rem);
+  }
+
+  .om-symbol {
+    font-size: clamp(1.5rem, 16vw, 2.5rem);
+  }
+
+  .details-grid {
+    grid-template-columns: 1fr;
+    gap: 8px;
+  }
+
+  .countdown-row {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .cd-sep {
     display: none;
+  }
+
+  .save-card,
+  .invite-card,
+  .venue-card,
+  .final-content,
+  .varmala-content {
+    padding: 16px 12px;
+  }
+
+  .audio-btn {
+    top: 20px;
+    left: 20px;
+    width: 34px;
+    height: 34px;
+    font-size: 0.9rem;
   }
 }
 

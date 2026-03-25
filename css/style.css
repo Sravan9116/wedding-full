@@ -175,13 +175,12 @@ img {
 .bride-glow,
 .groom-glow {
   font-family: var(--f-script);
-  background: linear-gradient(135deg, #797979 0%, #c7c6c7 30%, #eae0e4 55%, #e4e3e4dc 75%, #c8860a 100%);
+  background: linear-gradient(135deg, #ffffff 0%, #ffffff 30%, #ffffff 55%, #ffffffdc 75%, #ffffff 100%);
   background-size: 200% auto;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  filter: drop-shadow(0 0 12px rgba(212, 160, 23, 0.9));
-  color: whitesmoke;
+  filter: drop-shadow(0 0 12px rgba(56, 55, 55, 0.9));
 }
 
 .shimmer {

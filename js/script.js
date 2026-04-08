@@ -432,3 +432,7 @@ document.body.addEventListener('click', (e) => {
 
   togglePlayback();
 });
+
+function openMap() {
+  window.open("https://maps.app.goo.gl/9YPCjJy29fzmnHam9", "_blank");
+}

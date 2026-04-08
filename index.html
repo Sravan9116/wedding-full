@@ -9,7 +9,6 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Yeseva+One&family=Cinzel+Decorative:wght@400;700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=IM+Fell+English:ital@0;1&family=Noto+Serif+Telugu:wght@300;400;600&display=swap"
     rel="stylesheet" />
-  <img src="images/img1.jpg" alt="Favicon" class="favicon" />
 </head>
 
 <body>
@@ -59,18 +58,13 @@
     <div class="torana-top"></div>
     <div class="scene-content hero-content">
       <div class="om-symbol seq" data-seq="0">ॐ</div>
-      <p class="telugu-sub seq" data-seq="1">శుభ వివాహానికి స్వాగతం</p>
+      <p class="telugu-sub seq" data-seq="1">శుభకర వివాహానికి స్వాగతం</p>
       <h1 class="hero-title seq" data-seq="2">
         <span class="bride-glow">Deepthi Sri</span>
         <span class="weds-text seq" data-seq="3">weds</span>
         <span class="groom-glow">Teja Reddy</span>
       </h1>
-      <div class="hero-date seq" data-seq="4">
-        <span class="date-ornament">✦</span>
-        <span>May 1<sup>st</sup>, 2026 · Macherla</span>
-        <span class="date-ornament">✦</span>
-      </div>
-      <div class="hero-scroll-hint seq" data-seq="5">
+      <div class="hero-scroll-hint seq" data-seq="4">
         <span>Presenting</span>
         <div class="pulse-ring"></div>
       </div>
@@ -82,7 +76,7 @@
 ════════════════════════════════════════════════════════════ -->
   <section class="scene" id="scene-1">
     <div class="scene-bg"
-      style="background-image:url('images/ganesha.png'); background-size:55%; background-repeat:no-repeat; background-position:center; background-color:#0d0700;">
+      style="background-image:url('images/ganesha.png'); background-size:fit; background-repeat:no-repeat; background-position:center; background-color:#0d0700;">
     </div>
     <div class="scene-overlay divine-overlay"></div>
     <div class="scene-content divine-content">
@@ -105,23 +99,18 @@
     <div class="scene-content invite-content">
       <div class="invite-card seq" data-seq="0">
         <div class="invite-card-border"></div>
-        <p class="invite-header seq" data-seq="1">With great joy & love</p>
+        <p class="invite-header seq" data-seq="1">With great Love & Joy</p>
         <h2 class="invite-title seq" data-seq="2">We cordially invite you</h2>
         <p class="invite-body seq" data-seq="3">
           The families of<br />
-          <strong>Sri. &amp; Smt. Sri Family</strong><br />
+          <strong>Vundela's</strong><br />
           <em>&amp;</em><br />
-          <strong>Sri. &amp; Smt. Reddy Family</strong>
+          <strong>Konda's</strong>
         </p>
         <p class="invite-request seq" data-seq="4">
           request the honour of your presence<br />
           at the auspicious wedding ceremony of their children
         </p>
-        <div class="invite-names seq" data-seq="5">
-          <span class="bride-glow">Deepthi Sri</span>
-          <span class="invite-and">♥</span>
-          <span class="groom-glow">Teja Reddy</span>
-        </div>
       </div>
     </div>
   </section>
@@ -159,7 +148,7 @@
       <div class="couple-grid">
         <div class="person-card seq" data-seq="0">
           <div class="person-frame">
-            <img src="images/bride.png" alt="Bride Deepthi Sri" onerror="this.parentNode.classList.add('no-img')" />
+            <img src="images/bride.JPG" alt="Bride Deepthi Sri" onerror="this.parentNode.classList.add('no-img')" />
             <div class="frame-glow bride-frame"></div>
           </div>
           <div class="person-info">
@@ -177,7 +166,7 @@
         </div>
         <div class="person-card seq" data-seq="5">
           <div class="person-frame">
-            <img src="images/groom.png" alt="Groom Teja Reddy" onerror="this.parentNode.classList.add('no-img')" />
+            <img src="images/groom.JPG" alt="Groom Teja Reddy" onerror="this.parentNode.classList.add('no-img')" />
             <div class="frame-glow groom-frame"></div>
           </div>
           <div class="person-info">
@@ -231,11 +220,11 @@
           <div class="g-glow"></div>
         </div>
         <div class="g-item">
-          <img src="images/img8.jpeg" alt="Moment 8" onerror="this.parentNode.classList.add('no-img')" />
+          <img src="images/img8.jpg" alt="Moment 8" onerror="this.parentNode.classList.add('no-img')" />
           <div class="g-glow"></div>
         </div>
         <div class="g-item">
-          <img src="images/img9.jpeg" alt="Moment 9" onerror="this.parentNode.classList.add('no-img')" />
+          <img src="images/img9.jpg" alt="Moment 9" onerror="this.parentNode.classList.add('no-img')" />
           <div class="g-glow"></div>
         </div>
       </div>
@@ -291,11 +280,22 @@
           <div class="detail-val">Auspicious Hours</div>
           <div class="detail-sub">As Per Panchangam</div>
         </div>
-        <div class="detail-box">
+        <div class="detail-box venue-box" onclick="openMap()">
           <div class="detail-icon">📍</div>
+
           <div class="detail-label">Venue</div>
           <div class="detail-val">Macherla</div>
           <div class="detail-sub">Palnadu District, A.P.</div>
+
+          <!-- 🔥 Button style -->
+          <div class="venue-btn">
+            🚗 Get Directions
+          </div>
+
+          <!-- Sub hint -->
+          <div class="venue-click-hint">
+            Tap to open Google Maps
+          </div>
         </div>
         <div class="detail-box">
           <div class="detail-icon">🌸</div>
